@@ -1,0 +1,41 @@
+.nextgame.apps {
+  clear: both;
+  margin: -2em 0 0 -1em;
+}
+  .nextgame.apps .app {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    width: 33%;
+    min-width: 25em;
+  }
+    .nextgame.apps .app .wrapper {
+      margin: 2em 0 0 1em;
+    }
+    .nextgame.apps .app .icon {
+      float: left;
+      margin: 0 1em 0 0;
+    }
+    .nextgame.apps .app .info {
+      overflow: hidden;
+    }
+    .nextgame.apps .app .description {
+    }
+    .nextgame.apps .app .players {
+      color: #999;
+      margin: 0.5em 0 0;
+    }
+    .nextgame.apps .app .actions {
+      color: #999;
+      margin: 0.5em 0 0;
+    }
+      .nextgame.apps .app .actions a {
+        color: #999;
+      }
+
+.nextgame.appFrame {
+  text-align: center;
+}
+  .nextgame.appFrame .app {
+    display: inline-block;
+  }
